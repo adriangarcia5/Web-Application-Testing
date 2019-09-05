@@ -1,15 +1,16 @@
-import React, { useState } from 'react';
+import React from 'react';
 
- const Dashboard = (props) => {
-    const {strike, ball, foul, score} = props.play
+const Dashboard = (props) => {
+    const {strikeScore, ballScore, foulScore, hitScore} = props.play
+    console.log(props)
     return (
         <div>
-            <button onClick={strike}>STRIKE</button>
-            <button onClick={ball}>BALL</button>
-            <button onClick={foul}>FOUL</button>
-            <button onClick={score}>HIT</button>
+            <button onClick={strikeScore}>STRIKE</button>
+            <button onClick={ballScore}>BALL</button>
+            <button onClick={foulScore}>FOUL</button>
+            <button onClick={hitScore}>HIT</button>
         </div>
     )
 }
 
- export default Dashboard 
+export default Dashboard

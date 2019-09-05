@@ -1,11 +1,12 @@
-import React from 'react';
-import { render } from "@testing-library/react";
-import "@testing-library/react/cleanup-after-each";
+// import React from 'react';
+// import { render, fireEvent } from "@testing-library/react";
+// import "@testing-library/react/cleanup-after-each";
 
-import Dashboard from './Dashboard'
+// import Dashboard from './Dashboard'
 
-describe('<Dashboard />', () => {
-    it('should render buttons', () => {
-        
-    })
-});
+// describe('<Dashboard />', () => {
+//     it(' render without crashing', () => {
+//         render(<Dashboard />);
+//     });
+
+// });
